@@ -22,6 +22,7 @@ function addTodo(){
             nuevodiv.appendChild(label);
             todoPanel.appendChild(nuevodiv);
         }
+        todoContent[0].value='';
         
     });
     
