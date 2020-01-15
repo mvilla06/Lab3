@@ -24,9 +24,9 @@
                 </h3>
               </div>
               <div class="panel-body">
-                <form class="todoForm">
+                <form class="todoForm" id="form1">
                   <fieldset>
-                    <textarea class="newTodo form-control">
+                    <textarea class="newTodo form-control" required>
                       
                     </textarea>
                     <button type="submit" class="submitButton"> 
@@ -42,17 +42,17 @@
               <div class="panel-heading">
                 <h3>List of todo's</h3>
               </div>
-              <div class="panel-body" class="listOfTodos">
+              <div class="panel-body listOfTodos" id = "TodoList">
 
               </div>
               <div class="buttons">
-                <button class="clearButton btn-info"> 
+                <button class="clearButton btn-info" id = 'clear'> 
                   Clear all Todo's
                 </button>
-                <button class="markAllButton btn-success"> 
+                <button class="markAllButton btn-success" id='mark'> 
                   Mark all Todo's
                 </button>
-                <button class="deleteButton btn-danger"> 
+                <button class="deleteButton btn-danger" id = 'del'> 
                   Delete all Todo's
                 </button>
               </div>
@@ -64,5 +64,6 @@
     <footer role="footer" class="footer">
       Todo list application
     </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
